@@ -7,7 +7,7 @@ Shapley wants to calculate the contribution of each player in a coalition game.
 Assume there are N players and S is a subset of the N players. 
 Let p(S) be the total value of the S players. When player i join the S players, Player i’s marginal contribution is  p(S∪{i}) −  p(S). 
 If we take the average of the contribution over the possible different permutations in which the coalition can be formed, we get the right contribution of player i:
-<img src="shap.png" width="400" height="200">
+<img src="shap.png" width="200" height="100">
 
 ## Algorithms:
 ![](shap1.png)
